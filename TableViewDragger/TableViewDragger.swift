@@ -314,6 +314,8 @@ private extension TableViewDragger {
 
         case .changed, .failed, .possible:
             break
+        @unknown default:
+            break
         }
     }
 

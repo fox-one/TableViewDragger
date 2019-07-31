@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/KyoheiG3/TableViewDragger"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kyohei Ito" => "je.suis.kyohei@gmail.com" }
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/KyoheiG3/TableViewDragger.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/moubuns/TableViewDragger", :tag => s.version.to_s }
   s.source_files  = "TableViewDragger/**/*.{h,swift}"
   s.requires_arc = true
   s.frameworks = "UIKit"
